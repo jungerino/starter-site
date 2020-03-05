@@ -6050,3 +6050,7 @@ body {
   border-radius: 0.5em;
   margin: 0.5em 0;
   padding: 2em; }
+
+@media (max-width: 991.98px) {
+  .nav-column {
+    order: -1; } }
