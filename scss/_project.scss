@@ -30,3 +30,10 @@ body {
     margin: 0.5em 0;
     padding: 2em;
 }
+
+.nav-column {
+
+    @include media-breakpoint-down(md) {
+        order: -1;
+    }
+}
